@@ -1,0 +1,119 @@
+{
+  "idea": "decentralized payroll platform",
+  "plan": {
+    "project_type": "decentralized_payroll",
+    "templates": [
+      "payments"
+    ],
+    "features": [
+      "onboard team",
+      "schedule payroll",
+      "batch payouts",
+      "audit log"
+    ],
+    "secondary_features": [],
+    "pages": [
+      "landing",
+      "dashboard",
+      "team",
+      "payroll"
+    ],
+    "contract_modules": [
+      "payments"
+    ],
+    "frontend_modules": [
+      "payments"
+    ],
+    "needs_oracle_wallet": false,
+    "deployment_complexity": "standard"
+  },
+  "slug": "decentralized-payroll-20260512-0521",
+  "brand": {
+    "name": "Paystream",
+    "tagline": "Payroll on the rails of Stellar",
+    "description": "Stream salaries to your distributed team in minutes, not days.",
+    "colors": {
+      "primary": "#7C5CFF",
+      "primary_foreground": "#FFFFFF",
+      "background": "#0A0A14",
+      "foreground": "#E8E8F2",
+      "accent": "#FFB020",
+      "muted": "#13131F",
+      "border": "#23233A"
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter",
+      "mono": "JetBrains Mono"
+    },
+    "mood": "modern, calm, premium",
+    "cta_primary_label": "Run payroll",
+    "cta_secondary_label": "Learn more",
+    "ui_tone": "premium, calm, confident",
+    "microcopy_style": "short, declarative, useful"
+  },
+  "contract_modules": [
+    "payments"
+  ],
+  "contract_constants": {
+    "FEE_BPS": "100",
+    "MIN_DEPOSIT": "1000000",
+    "GRACE_SECS": "604800"
+  },
+  "copy": {
+    "hero_eyebrow": "Stellar payroll",
+    "hero_title": "Pay your distributed team in minutes",
+    "hero_subtitle": "Batch payouts to anywhere, settle on Stellar, keep a clean audit trail.",
+    "hero_primary_cta": "Run payroll",
+    "hero_secondary_cta": "See the demo",
+    "features": [
+      {
+        "title": "Batch payouts",
+        "body": "One transaction, many recipients. Faster than ACH and cheaper than wires.",
+        "icon": "Banknote"
+      },
+      {
+        "title": "Real-time receipts",
+        "body": "Every payout writes a tx hash and explorer link to your audit log.",
+        "icon": "Receipt"
+      },
+      {
+        "title": "Multi-currency",
+        "body": "Pay in XLM today. Stablecoins coming as Stellar issuers expand.",
+        "icon": "Coins"
+      },
+      {
+        "title": "Role-based access",
+        "body": "Admin, finance, and reviewer roles with separated signing keys.",
+        "icon": "ShieldCheck"
+      }
+    ],
+    "dashboard_title": "Payroll",
+    "dashboard_subtitle": "Every cycle in one place.",
+    "dashboard_stat_labels": [
+      "Paid this month",
+      "Active employees",
+      "Pending payouts",
+      "Avg settle time"
+    ],
+    "nav_links": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Dashboard",
+        "href": "/dashboard"
+      },
+      {
+        "label": "Feature",
+        "href": "/feature"
+      }
+    ],
+    "footer_blurb": "Run payroll on Stellar testnet."
+  },
+  "wallet_publics": {
+    "deploy": "GBR6RU4LGVURHCKMVPJK4SDXSKOBYAYUQB6Q35SXPDYUUO5ZVFTVU3QC",
+    "treasury": "GAP3F2IMYUY2VYFTTDWSNHDFMCZCWCITBHLNHQMLXD2SQXHB23DGL4CZ"
+  }
+}
